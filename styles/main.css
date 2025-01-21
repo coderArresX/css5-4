@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body {
+    font-family: Inter;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E6577;
+}
+
+a:focus {
+    color: #4400DD;
+    font-weight: 700;
+}
+
+button {
+    background-color: #F1EBFF;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 24px 8px 12px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    color: #323232;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #5E6577;
+    text-align: right;
+    text-transform: none;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5E6577;
+    flex-basis: 488px;
+}
+
+p {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    flex-basis: 488px;
+}
+
+.parentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 193px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #F1EBFF;
+    border-bottom: 1px;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-self: center;
+}
+
+#search {
+    background-color: #4400DD;
+    padding: 16px 24px;
+}
+
+.searchMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.houseContainer {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceContainer {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #CCD3E0;
+}
+
+span {
+    color: #4400DD;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.priceText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E6577;
+}
+
+.houseDescription {
+    display: flex;
+    gap: 16px;
+    padding: 16px 23px 88px 23px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #155EEF;
+    border-top: 2px solid #8CE900;
+    border-bottom: 2px solid #DD2590;
+    justify-content: space-between;
+}
+
+.grey {
+    color: #969696;
+}
+
+.location {
+    background-color: #EDE6FC;
+    border: 1px solid #4400DD;
+    border-radius: 8px;
+    padding: 66px 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.darkGrey {
+    color: #3B3B3B;
+}
+
+.detailLocation {
+    display: flex;
+    gap: 16px;
+    padding: 16px 24px;
+    padding-top: 116px;
+    align-items: flex-end;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+}
+
+.blackTitle {
+    flex-basis: 488px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #07081A;
+}
+
+.blueText {
+    color: #155EEF;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+}
